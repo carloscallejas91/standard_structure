@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:standard_structure/core/theme/app_theme.dart';
-import 'package:standard_structure/core/values/strings.dart';
-import 'package:standard_structure/routes/app_pages.dart';
-import 'package:standard_structure/routes/app_routes.dart';
+import "package:flutter/material.dart";
+import "package:get/get.dart";
+import "package:standard_structure/core/theme/app_theme.dart";
+import "package:standard_structure/core/values/strings.dart";
+import "package:standard_structure/routes/app_pages.dart";
+import "package:standard_structure/routes/app_routes.dart";
 
 void main() {
   runApp(const MyApp());

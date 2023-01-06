@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
 
 /* Core Scheme */
 const Color primary = Color(0xff7B1FA2);

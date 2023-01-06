@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:standard_structure/core/theme/text_theme.dart';
-import 'package:standard_structure/core/values/colors.dart';
+import "package:flutter/material.dart";
+import "package:standard_structure/core/theme/text_theme.dart";
+import "package:standard_structure/core/values/colors.dart";
 
 class CustomThemeData {
   CustomThemeData._();

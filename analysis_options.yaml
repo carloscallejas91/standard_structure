@@ -33,6 +33,7 @@ analyzer:
     prefer_final_parameters: warning
     require_trailing_commas: warning
     avoid_redundant_argument_values: ignore
+    use_super_parameters: ignore
 
   exclude:
 
@@ -56,6 +57,7 @@ linter:
     prefer_double_quotes: true
     prefer_final_in_for_each: true
     prefer_final_locals: true
-    prefer_final_parameters: true
+    prefer_final_parameters: false
     require_trailing_commas: true
     avoid_redundant_argument_values: true
+    use_super_parameters: true
