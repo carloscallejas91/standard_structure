@@ -1,0 +1,1 @@
+const titleApplication = 'Flutter Standard Structure';
