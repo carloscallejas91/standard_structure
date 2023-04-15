@@ -8,6 +8,7 @@ class CustomThemeData {
   static ThemeData get lightTheme {
     return ThemeData(
       useMaterial3: true,
+      visualDensity: VisualDensity.adaptivePlatformDensity,
       colorScheme: const ColorScheme.light(
         primary: primary,
         onPrimary: onPrimary,
@@ -28,12 +29,23 @@ class CustomThemeData {
         surfaceVariant: surfaceVariant,
         onSurfaceVariant: onSurfaceVariant,
         outline: outline,
+        outlineVariant: outlineVariant,
         error: error,
         onError: onError,
         errorContainer: errorContainer,
         onErrorContainer: onErrorContainer,
       ),
       textTheme: textTheme,
+      appBarTheme: const AppBarTheme(
+        color: primary,
+        foregroundColor: onPrimary,
+      ),
+      inputDecorationTheme: const InputDecorationTheme(
+        hintStyle: TextStyle(color: neutral),
+      ),
+      textSelectionTheme: const TextSelectionThemeData(
+        selectionHandleColor: tertiary,
+      ),
     );
   }
 

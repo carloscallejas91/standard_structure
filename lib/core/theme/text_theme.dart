@@ -3,17 +3,17 @@ import "package:flutter/material.dart";
 const TextTheme textTheme = TextTheme(
   displayLarge: TextStyle(
     fontWeight: FontWeight.w400,
-    fontSize: 57,
+    fontSize: 47,
     letterSpacing: 0,
   ),
   displayMedium: TextStyle(
     fontWeight: FontWeight.w400,
-    fontSize: 45,
+    fontSize: 35,
     letterSpacing: 0,
   ),
   displaySmall: TextStyle(
     fontWeight: FontWeight.w400,
-    fontSize: 36,
+    fontSize: 26,
     letterSpacing: 0,
   ),
   headlineLarge: TextStyle(

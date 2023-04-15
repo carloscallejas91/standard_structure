@@ -23,6 +23,7 @@ const Color onSurface = Color(0xff212121);
 const Color surfaceVariant = Color(0xffEEEEEE);
 const Color onSurfaceVariant = Color(0xff757575);
 const Color outline = Color(0xff9E9E9E);
+const Color outlineVariant = Color(0xffE0E0E0);
 
 const Color error = Color(0xffF44336);
 const Color onError = Color(0xffFFFFFF);
