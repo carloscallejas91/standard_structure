@@ -34,8 +34,11 @@ analyzer:
     require_trailing_commas: warning
     avoid_redundant_argument_values: ignore
     use_super_parameters: ignore
-
+    avoid_dynamic_calls: ignore
+    prefer_if_elements_to_conditional_expressions: ignore
+    avoid_positional_boolean_parameters: ignore
   exclude:
+
 
 linter:
   rules:
@@ -61,3 +64,7 @@ linter:
     require_trailing_commas: true
     avoid_redundant_argument_values: true
     use_super_parameters: true
+    avoid_dynamic_calls: true
+    prefer_if_elements_to_conditional_expressions: true
+    use_setters_to_change_properties: false
+    avoid_positional_boolean_parameters: true

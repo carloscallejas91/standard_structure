@@ -35,14 +35,17 @@ const Color backgroundVariant = Color(0xffE7EDDE);
 const Color warning = Color(0xffFB8C00);
 const Color onWarning = Color(0xffFFFFFF);
 const Color warningContainer = Color(0xffFFE0B2);
-const Color onWarningContainer = Color(0xffE65100);
+const Color onWarningContainer = Color(0xffFB8C00);
 
 const Color success = Color(0xff388E3C);
 const Color onSuccess = Color(0xffFFFFFF);
 const Color successContainer = Color(0xffE8F5E9);
-const Color onSuccessContainer = Color(0xff1B5E20);
+const Color onSuccessContainer = Color(0xff388E3C);
 
-const Color yellow = Color(0xffFFEB3B);
-const Color onYellow = Color(0xff212121);
-const Color yellowContainer = Color(0xffFFFDE7);
-const Color onYellowContainer = Color(0xffFFEA00);
+const Color neutral = Color(0xff757575);
+const Color onNeutral = Color(0xff424242);
+const Color neutralContainer = Color(0xffEEEEEE);
+const Color onNeutralContainer = Color(0xff424242);
+
+const Color disable = Color(0xffE0E0E0);
+const Color onDisable = Color(0xff757575);

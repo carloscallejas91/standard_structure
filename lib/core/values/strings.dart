@@ -1,1 +1,2 @@
-const titleApplication = "Flutter Standard Structure";
+// Text
+const String titleApplication = "Nome Aplicativo";
